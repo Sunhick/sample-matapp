@@ -1,0 +1,3 @@
+[submodule "modules/matlib"]
+	path = modules/matlib
+	url = git@github.com:Sunhick/sample-matlib.git
