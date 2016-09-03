@@ -12,15 +12,21 @@ This repository provides a example tutorials for the git submodule command.
 2. Pull the source code for all of the submodules in the .gitmodules. To do that,
 
    `cd sample-matapp`
+   
    `git submodule init`
+   
    `git submodule update`
 
 3. Now that the source code for the application(sample-matapp) and submodules(sample-matlib) are available. We can go ahead and compile the code. First compile the submodules as 
+
    `cd modules/matlib/matlib`
+   
    `make`
 
 4. Compile the application as,
+
    `cd matapp`
+   
    `make`
 
 5. Run the application as, `./main`
